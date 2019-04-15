@@ -1,0 +1,10 @@
+.ImgCard img {
+  width: 160px;
+  height: 270px;
+}
+
+.ImgCard:hover {
+  transition: 2s;
+  transition-timing-function: cubic-bezier(10, 0, 1, 0);
+  transform: scale(1.19);
+}
